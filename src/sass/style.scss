@@ -1,0 +1,18 @@
+@import 'base/_variables';
+@import 'base/_mixins';
+
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
