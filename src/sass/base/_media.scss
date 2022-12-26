@@ -23,7 +23,13 @@
   }
 }
 @media (max-width: 767px) {
-
+  .advantage__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantage__item {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 575px) {
 
